@@ -2,8 +2,12 @@
 #include <iomanip>
 #include <math.h>
 
+/**
+ * Your job is to compute, from a list of expenses, the minimum amount of money that must
+ *  change hands in order to equalize (within one cent) all the students’ costs.
+ */
+
 unsigned int TERMINATE = 0;
-double SCALE = 0.01;
 
 int main() {
     unsigned int numberOfStudents;
